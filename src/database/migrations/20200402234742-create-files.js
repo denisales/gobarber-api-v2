@@ -8,11 +8,11 @@ module.exports = {
         primaryKey: true,
       },
       name: {
-        type: Sequelize.STRING,
+        type: Sequelize.STRING(190),
         allowNull: false,
       },
       path: {
-        type: Sequelize.STRING,
+        type: Sequelize.STRING(190),
         allowNull: false,
         unique: true,
       },
